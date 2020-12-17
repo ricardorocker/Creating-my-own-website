@@ -1,7 +1,167 @@
-.nav{
+*{
+    margin: 0px;
+    padding: 0px;
+ /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: AvenirLight;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+	font-family: "AvenirHeavy";
+    src: url("../fonts/Avenir\ Heavy/AvenirHeavy.svg") format("svg"),
+    url("../fonts/Avenir\ Heavy/AvenirHeavy.otf") format("opentype"),
+    url("../fonts/Avenir\ Heavy/AvenirHeavy.ttf") format("truetype");
+}
+@font-face {
+    font-family: "AvenirLight";
+    padding: 0%;
+    margin: 0%;
+	src: url("../fonts/Avenir\ Light/AvenirLight.svg") format("svg"),
+    url("../fonts/Avenir\ Light/AvenirLight.otf") format("opentype"),
+    url("../fonts/Avenir\ Light/AvenirLight.ttf") format("truetype");
+}
+
+
+header{
     background-color: gray;
+    color: white;
+    height: 520px;
+}
+
+nav{
+    font-family: "AvenirHeavy";
+    font-size: 20px;
+    line-height: 50px;
+    background-color: red;
+    /* font-weight: bold; */
 }
 
 .menu{
-    background-color: blue;
+    text-align: center;
+    padding: 25px;
+    /* font-weight: bold; */
+}
+
+il{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.name{
+    padding: 80px;
+    text-align: center;
+}
+
+.title{
+    font-family: "AvenirHeavy";
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 25px;
+    letter-spacing: 6.25px;
+}
+
+.picture{
+    position: absolute;
+    /* margin: auto; */
+    right: 39.5%;
+    top: 380px;
+    
+}
+
+.profile{
+    border-radius: 50%;
+    border: 7px solid white;
+    margin: 10px;
+    max-width: 250px;
+}
+
+section{
+    overflow: hidden;
+    height: 650px;
+    background-color: gray;
+}
+
+.top{
+    display: table;
+    height: 12%;
+    width: 40%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: blue !important;
+    /* line-height: 400%; */
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.middle{
+    width: 40%;
+    height: 47%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-size: 17px;
+}
+
+.bottom{
+    height: 14%;
+    width: 92%;
+    padding-top: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 8%;
+    background-color: gray;
+    text-align: center;
+    /* display: block; */
+}
+
+.left{
+    /* display: block; */
+    float: left;
+    background-color: yellow;
+    /* overflow: hidden; */
+}
+
+.right{
+    /* display: block; */
+    float: right;
+    background-color: violet;
+    /* overflow: hidden; */
+}
+
+.button{
+    text-align: center;
+    background-color: pink;
+    /* display: block; */
+    display: table;
+    /* padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px; */
+    padding: 10px;
+    width: 246px;
+    margin: auto;
+    border: 1px solid black;
+    /* font-size: 13px; */
+/*     
+    top: 50%;			
+	transform: translate(-50%, -50%); */
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 51px;
+}
+
+.copyright{
+    font-size: 13px;
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
