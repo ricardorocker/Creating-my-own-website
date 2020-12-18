@@ -51,19 +51,21 @@ nav{
     font-family: "AvenirHeavy";
     font-size: 20px;
     line-height: 50px;
-    /* background-color: red; */
-    /* font-weight: bold; */
 }
 
 .menu{
     text-align: center;
     padding: 25px;
-    /* font-weight: bold; */
 }
 
 il{
     margin-left: 20px;
     margin-right: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
 }
 
 .name{
@@ -87,7 +89,6 @@ il{
     margin: auto;
     left:50%;
     margin-left:-142px;
-    /* right: 39.5%; */
     top: 380px;    
 }
 
@@ -100,7 +101,6 @@ il{
 
 section{
     overflow: hidden;
-    /* height: 650px; */
     z-index: 1;
     background-color: white;
 }
@@ -116,8 +116,6 @@ section{
     padding-top: 140px;
     padding-left: 5%;
     padding-right: 5%;
-    /* background-color: blue !important; */
-    /* line-height: 400%; */
     font-size: 38px;
     font-weight: bold;
 }
@@ -128,7 +126,6 @@ section{
 
 .middle{
     width: 40%;
-    /* height: 300px; */
     padding-top: 13px;
     padding-left: 5%;
     padding-right: 5%;
@@ -137,48 +134,30 @@ section{
 }
 
 .bottom{
-    /* height: 101px; */
     width: 92%;
     padding-top: 0px;
     padding-left: 4%;
     padding-right: 4%;
     padding-bottom: 52px;
-    /* background-color: gray; */
     text-align: center;
-    /* display: block; */
 }
 
 .left{
-    /* display: block; */
     float: left;
-    /* background-color: yellow; */
-    /* overflow: hidden; */
 }
 
 .right{
-    /* display: block; */
     float: right;
-    /* background-color: violet; */
-    /* overflow: hidden; */
 }
 
 .button{
     text-align: center;
-    /* background-color: pink; */
-    /* display: block; */
     display: table;
-    /* padding-top: 11px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 9px; */
     padding: 10px;
     width: 246px;
     margin: auto;
     border: 1px solid black;
-    /* font-size: 13px; */
-/*     
-    top: 50%;			
-	transform: translate(-50%, -50%); */
+    color: black;
 }
 
 footer{
@@ -198,13 +177,10 @@ footer{
 @media only screen and (max-width: 900px) {
     .title{
         font-size: 64px;
-        /* color: pink; */
-    }
-    
-
+    }    
   }
-  @media only screen and (max-width: 720px) {
 
+  @media only screen and (max-width: 720px) {
     header{
         height: 420px;
     }
@@ -279,22 +255,22 @@ footer{
     }
 
 
-    /* .menu{
+    /* Old Version menu mobile
+     .menu{
         padding: 0px;
         width: 100%;
-    } */
+    }
 
-    /* il{
+    il{
         display: block;
         margin: 0px;
         padding: 0px;
         font-size: 16px;
         border: 1px solid rgba(131, 131, 131, 0.30);
-    } */
+    }  */
     
     .name{
         padding: 0px;
-        /* text-align: center; */
     }
     
     .title {
@@ -314,7 +290,6 @@ footer{
 
     .picture{
         margin-left:-120px;
-        /* right: 39.5%; */
         top: 300px;    
     }
 
@@ -327,37 +302,13 @@ footer{
         overflow: hidden;
     }
     
-    /* .middle{
-        width: 40%;
-        padding-top: 13px;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 50px;
-        font-size: 17px;
-    }
-  */
-    
     .left{
-        /* display: block; */
         float: none;
-        /* background-color: yellow; */
-        /* overflow: hidden; */
         padding-bottom: 10px;
-        
-
     }
     
     .right{
-        /* display: block; */
         float: none;
-        /* background-color: violet; */
-        /* overflow: hidden; */
-        
-        /* padding: 0px;
-        margin: 0px;
-        height: 0px;
-        width: 100%;
-        font-size: 0px; */
     }
 
     .social-media{
@@ -379,7 +330,8 @@ footer{
     }
 
     .button{
-        margin: 0;;
+        margin: 0;
+        color: black;
     }
     
     .mob{
@@ -388,16 +340,11 @@ footer{
     }
 
     footer{
-        /* display: block; */
         width: 100%;
-        /* padding:10%; */
-        /* padding-right: 10px; */
         text-align: center;
     }
 
     .copyright{
-        /* position:sticky; */
-        /* display: table; */
         width: 80%;
         font-size: 12px;
         padding-left: 10%;
