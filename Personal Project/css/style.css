@@ -105,11 +105,86 @@ section{
     background-color: white;
 }
 
-.social-media img{
+.social-media{
     padding-right: 20px;
+    text-align: left; 
+    font-size: 40px; 
+    padding-bottom: 10px;
+    padding-top: 120px;
 }
 
-.top{
+.desk{
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* 1 COLUMN */
+.columns{
+    margin: 0 auto; 
+    text-align: center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.one-column{
+    float: left;
+    padding: 40px 5% 40px 5%; 
+    text-align: left; 
+    width: 78%;
+    margin-left: 2%;
+}
+
+
+/* 2 COLUMNS */
+.two-columns{
+    float: left;
+    padding: 40px 5% 40px 5%; 
+    text-align: left; 
+    width: 38%;
+}
+
+.first-two{
+    margin-left: 2%; 
+}
+
+
+/* 3 COLUMNS */
+.three-columns{
+    float: left;
+    padding: 40px 3.5% 40px 3.5%; 
+    text-align: center; 
+    width: 26%;
+}
+
+.first-three{
+    margin-left: 0.5%; 
+}
+
+
+/* Titles Home and Other Pages */
+.title-home{    
+    text-align: left; 
+    font-size: 40px; 
+    padding-bottom: 10px;
+    padding-top: 120px;
+}
+
+.title-pages{
+    text-align: center; 
+    font-size: 40px; 
+    padding-bottom: 10px;
+}
+
+.img-skill{
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+
+/* START REPLACE WITH NEW ------------------------------------------------------------------------------ */
+/* .top{
     display: table;
     min-height: 56px;
     width: 40%;
@@ -119,11 +194,9 @@ section{
     font-size: 38px;
     font-weight: bold;
 }
-
 .both-middle{
     display:table;
 }
-
 .middle{
     width: 40%;
     padding-top: 13px;
@@ -132,6 +205,13 @@ section{
     padding-bottom: 50px;
     font-size: 17px;
 }
+.left{
+    float: left;
+}
+.right{
+    float: right;
+} */
+/* END REPLACE WITH NEW ------------------------------------------------------------------------------ */
 
 .bottom{
     width: 92%;
@@ -140,14 +220,6 @@ section{
     padding-right: 4%;
     padding-bottom: 52px;
     text-align: center;
-}
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
 }
 
 .button{
@@ -204,8 +276,7 @@ footer{
         text-align: center;
     }
 
-    .home{
-        background-image: url("../img/icons/home.png");
+    .img-menu{
         width: 40px;
         height: 40px;  
         background-size: cover;
@@ -214,44 +285,20 @@ footer{
         display: inline-block;
     }
 
+    .home{
+        background-image: url("../img/icons/home.png");
+    }
 	.skills{
         background-image: url("../img/icons/skills.png");
-        width: 40px;
-        height: 40px;  
-        background-size: cover;
-        margin-right:08px;
-        margin-left:08px;    
-        display: inline-block;
     }
-
 	.education{
         background-image: url("../img/icons/graduation-cap.png");
-        width: 40px;
-        height: 40px;  
-        background-size: cover;
-        margin-right:08px;
-        margin-left:08px;    
-        display: inline-block;
     }
-
 	.projects{
         background-image: url("../img/icons/web-design.png");
-        width: 40px;
-        height: 40px;  
-        background-size: cover;
-        margin-right:08px;
-        margin-left:08px;   
-        display: inline-block;
     }
-
 	.contact{
         background-image: url("../img/icons/contact.png");
-        width: 40px;
-        height: 40px;  
-        background-size: cover;
-        margin-right:08px;
-        margin-left:08px;   
-        display: inline-block;
     }
 
 
@@ -296,49 +343,83 @@ footer{
     .profile{
         max-width: 200px;
     }
+  
+    .two-columns{
+        float: left;
+        padding: 0px 5% 20px 5%; 
+        text-align: left; 
+        width: 78%;
+        margin-left: 2%;
+    }
 
-    .both-middle{
+    .three-columns{
+        float: left;
+        padding: 0px 5% 20px 5%; 
+        text-align: center; 
+        width: 78%;
+        margin-left: 2%;
+    }
+
+    .social-media{
+        /* position: absolute; */
+        /* bottom: -100%; */
+        margin-left: 7%; 
+        padding: 0px;
+        padding-bottom: 40px;
+    }    
+
+    .mob{
+        display: none;
+    }
+
+    .desk{
+        display: block;
+        /* margin-left: 7%; 
+        padding-bottom: 40px; */
+    }
+
+    .center{
+        text-align: center;
+    }
+
+     /* .both-middle{
         display:block;
         overflow: hidden;
-    }
-    
+    }    
     .left{
         float: none;
         padding-bottom: 10px;
     }
-    
     .right{
         float: none;
     }
-
     .social-media{
         display: none;
     }
-
     .top {
         min-height: 0px;
         width: 80%;
         padding-top: 0px;
     }
-
     .middle{
         width: 80%;
-    }
+    } */
 
     .bottom{
         width: 100%;
+        padding-left: 0px;
+        padding-top: 40px;
+        margin-left: 0px;
     }
 
     .button{
         margin: 0;
         color: black;
-    }
-    
-    .mob{
-        padding-top: 140px;
-        min-height: 56px;
+        margin-left: 7%;
+        padding-left: 0px;
     }
 
+    
     footer{
         width: 100%;
         text-align: center;
