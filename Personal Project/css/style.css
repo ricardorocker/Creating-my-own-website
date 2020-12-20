@@ -120,7 +120,7 @@ section{
 }
 
 
-/* 1 COLUMN */
+/* 1 COLUMN -------------------------------------------------------------------------------- */
 .columns{
     margin: 0 auto; 
     text-align: center; 
@@ -137,7 +137,7 @@ section{
 }
 
 
-/* 2 COLUMNS */
+/* 2 COLUMNS  -------------------------------------------------------------------------------- */
 .two-columns{
     float: left;
     padding: 40px 5% 40px 5%; 
@@ -150,7 +150,7 @@ section{
 }
 
 
-/* 3 COLUMNS */
+/* 3 COLUMNS  -------------------------------------------------------------------------------- */
 .three-columns{
     float: left;
     padding: 40px 3.5% 40px 3.5%; 
@@ -182,36 +182,12 @@ section{
     padding-bottom: 20px;
 }
 
-
-/* START REPLACE WITH NEW ------------------------------------------------------------------------------ */
-/* .top{
-    display: table;
-    min-height: 56px;
-    width: 40%;
-    padding-top: 140px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 38px;
-    font-weight: bold;
+.github{
+    color: blue;
+    font-weight: bold;    
+    text-transform: uppercase;    
+    letter-spacing: 1px;
 }
-.both-middle{
-    display:table;
-}
-.middle{
-    width: 40%;
-    padding-top: 13px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 50px;
-    font-size: 17px;
-}
-.left{
-    float: left;
-}
-.right{
-    float: right;
-} */
-/* END REPLACE WITH NEW ------------------------------------------------------------------------------ */
 
 .bottom{
     width: 92%;
@@ -244,6 +220,68 @@ footer{
     padding-top: 19px;
     padding-bottom: 19px;
 }
+
+
+
+
+
+
+
+/* CONTACT PAGE ------------------------------------------------------------------- */
+.first-column-contact{
+    float: left;
+    padding: 40px 5% 40px 5%; 
+    text-align: left; 
+    width: 28%;
+}
+
+.second-column-contact{
+    float: left;
+    padding: 40px 5% 40px 5%; 
+    text-align: left; 
+    width: 48%;
+}
+
+.social-media-contact{
+    position: absolute;
+    bottom: -285px;
+    text-align: left; 
+    font-size: 40px; 
+}
+
+.contact{
+    width: 100%;
+}
+
+.contacts{
+    border: none;
+}
+ 
+input{
+    width: 48%;
+    height: 40px;    
+    font-size: 15px;
+    border: none;
+}
+
+textarea{
+    height: 150px;
+    width: 99%;
+    margin-top: 30px;
+    overflow: auto; 
+    font-size: 15px;
+    border: none;
+}
+
+button{
+    padding: 10px 20px 10px 20px;  
+    font-size: 15px;
+    margin-top: 20px;
+}
+ /* CONTACT PAGE ------------------------------------------------------------------- */
+
+
+
 
 
 @media only screen and (max-width: 900px) {
@@ -300,21 +338,6 @@ footer{
 	.contact{
         background-image: url("../img/icons/contact.png");
     }
-
-
-    /* Old Version menu mobile
-     .menu{
-        padding: 0px;
-        width: 100%;
-    }
-
-    il{
-        display: block;
-        margin: 0px;
-        padding: 0px;
-        font-size: 16px;
-        border: 1px solid rgba(131, 131, 131, 0.30);
-    }  */
     
     .name{
         padding: 0px;
@@ -324,15 +347,11 @@ footer{
         font-size: 24px;
         text-transform: uppercase;
         width: 100%;
-        /* left:50%; */
-        /* margin-left:-5%; */
     }
 
     .subtitle {
         font-size: 14px;
         width: 100%;
-        /* left:50%; */
-        /* margin-left:-3%; */
     }
 
     .picture{
@@ -352,6 +371,22 @@ footer{
         margin-left: 2%;
     }
 
+    .first-column-contact{
+        float: left;
+        padding: 0px 5% 50px 5%; 
+        text-align: left; 
+        width: 78%;
+        margin-left: 2%;
+    }
+
+    .second-column-contact{
+        float: left;
+        padding: 0px 5% 100px 5%; 
+        text-align: left; 
+        width: 78%;
+        margin-left: 2%;
+    }
+
     .three-columns{
         float: left;
         padding: 0px 5% 20px 5%; 
@@ -361,8 +396,6 @@ footer{
     }
 
     .social-media{
-        /* position: absolute; */
-        /* bottom: -100%; */
         margin-left: 7%; 
         padding: 0px;
         padding-bottom: 40px;
@@ -374,36 +407,12 @@ footer{
 
     .desk{
         display: block;
-        /* margin-left: 7%; 
-        padding-bottom: 40px; */
     }
 
     .center{
         text-align: center;
     }
-
-     /* .both-middle{
-        display:block;
-        overflow: hidden;
-    }    
-    .left{
-        float: none;
-        padding-bottom: 10px;
-    }
-    .right{
-        float: none;
-    }
-    .social-media{
-        display: none;
-    }
-    .top {
-        min-height: 0px;
-        width: 80%;
-        padding-top: 0px;
-    }
-    .middle{
-        width: 80%;
-    } */
+    
 
     .bottom{
         width: 100%;
