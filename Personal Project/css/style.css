@@ -186,6 +186,10 @@ section{
     /* padding-bottom: 20px; */
 }
 
+.img-setup{
+    max-width: 500px;
+}
+
 .github{
     color: blue;
     font-weight: bold;    
@@ -328,6 +332,10 @@ button{
         display: inline-block;
     }
 
+    .img-setup{
+        max-width: 80%;
+    }
+
     .home{
         background-image: url("../img/icons2/house-black-silhouette-without-door.png");
     }
@@ -335,7 +343,7 @@ button{
         background-image: url("../img/icons2/skills\ \(1\).png");
     }
 	.education{
-        background-image: url("../img/icons2/college-graduation.png");
+        background-image: url("../img/icons2/workplace.png");
     }
 	.projects{
         background-image: url("../img/icons2/coding.png");
@@ -367,13 +375,17 @@ button{
     .profile{
         max-width: 200px;
     }
-  
+    
+    .description{        
+        padding: 0px 5% 0px 5%;
+    }
+    
     .two-columns{
         float: left;
-        padding: 0px 5% 20px 5%; 
+        padding: 0px 10% 20px 10%; 
         text-align: left; 
-        width: 78%;
-        margin-left: 2%;
+        width: 80%;
+        /* margin-left: 2%;  */
     }
 
     .first-column-contact{
@@ -429,7 +441,7 @@ button{
     .button{
         margin: 0;
         color: black;
-        margin-left: 7%;
+        margin-left: 10%;
         padding-left: 0px;
     }
 
