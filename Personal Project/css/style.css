@@ -119,6 +119,10 @@ section{
     margin: 0px;
 }
 
+.center{
+    text-align: center;
+}
+
 
 /* 1 COLUMN -------------------------------------------------------------------------------- */
 .columns{
@@ -130,10 +134,10 @@ section{
 
 .one-column{
     float: left;
-    padding: 40px 5% 40px 5%; 
+    padding: 40px 10% 40px 10%; 
     text-align: left; 
-    width: 78%;
-    margin-left: 2%;
+    width: 80%;
+    /* margin-left: 2%; */
 }
 
 
@@ -153,7 +157,7 @@ section{
 /* 3 COLUMNS  -------------------------------------------------------------------------------- */
 .three-columns{
     float: left;
-    padding: 40px 3.5% 40px 3.5%; 
+    padding: 0px 3.5% 40px 3.5%; 
     text-align: center; 
     width: 26%;
 }
@@ -178,8 +182,8 @@ section{
 }
 
 .img-skill{
-    height: 120px;
-    padding-bottom: 20px;
+    width: 100%;
+    /* padding-bottom: 20px; */
 }
 
 .github{
@@ -307,36 +311,37 @@ button{
 
     .menu-mob{
         z-index: -99;
-        background-color: rgba(255, 255, 255, 0.50); /* dim the background */
-        width: 100%;
-        padding-top: 15px;
-        padding-bottom: 0px;
+        /* background-color: rgba(255, 255, 255, 0.50);  */
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 15px;
         text-align: center;
     }
 
     .img-menu{
-        width: 40px;
-        height: 40px;  
+        width: 27px;
+        height: 27px;  
         background-size: cover;
-        margin-right:08px;
-        margin-left:08px; 
+        margin: 0px 14px 0px 14px;  
+        /* margin-right:14px; */
+        /* margin-left:14px;  */
         display: inline-block;
     }
 
     .home{
-        background-image: url("../img/icons/home.png");
+        background-image: url("../img/icons2/house-black-silhouette-without-door.png");
     }
 	.skills{
-        background-image: url("../img/icons/skills.png");
+        background-image: url("../img/icons2/skills\ \(1\).png");
     }
 	.education{
-        background-image: url("../img/icons/graduation-cap.png");
+        background-image: url("../img/icons2/college-graduation.png");
     }
 	.projects{
-        background-image: url("../img/icons/web-design.png");
+        background-image: url("../img/icons2/coding.png");
     }
 	.contact{
-        background-image: url("../img/icons/contact.png");
+        background-image: url("../img/icons2/phone-call.png");
     }
     
     .name{
